@@ -1,4 +1,4 @@
-- name: Python Workflow Demo
+name: Python Workflow Demo
 
 on: [push]
 
