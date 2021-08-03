@@ -6,8 +6,8 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-      - name: Building the Code
-        run: echo "Building the Code"
+      - name: Building java hello
+        run: echo "Building the java hello"
       - name: Wait for the Code Building
         run: sleep 30
 
@@ -16,4 +16,4 @@ jobs:
     needs: Build
     steps:
       - name: Run Python File
-        run: python hello.py
+        run: javac hello.java
